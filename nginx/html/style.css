@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, YuGothic;
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+}
+.top-image {
+  width: 100vw;
+  height: 60vh;
+  background-image: url("./img/top.png");
+  background-repeat: no-repeat;
+}
+.welcome {
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  left: 200px;
+  font-size: xx-large;
+}
+.checkin-container {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  padding: 1em 6em;
+  margin: 2em 0;
+  border-radius: 5px;
+  background-color: #F08080;
+}
+.checkin-container a {
+  text-decoration: none;
+  color: white;
+}
+.traveler{
+  position: absolute;
+  height: 200px;
+  width: 180px;
+  top: 530px;
+  left: 150px;
+}
+.bottum-image {
+  width: 100vw;
+  height: 30vh;
+  bottom: 0;
+}
