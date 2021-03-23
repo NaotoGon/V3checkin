@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, YuGothic;
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+}
+.top-image {
+  width: 800px;
+  height: 800px;
+  background-image: url("./img/top.png");
+  background-repeat: no-repeat;
+}
+.welcome {
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  left: 200px;
+  font-size: xx-large;
+}
+.checkin-container {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  padding: 1em 6em;
+  margin: 2em 0;
+  border-radius: 5px;
+  background-color: #F08080;
+}
+.checkin-container a {
+  text-decoration: none;
+  color: white;
+}
+.traveler{
+  position: absolute;
+  height: 200px;
+  width: 180px;
+  top: 530px;
+  left: 150px;
+}
+.bottum-image {
+  width: 1000px;
+  height: 300px;
+  bottom: 0;
+}
+
+.checkin-text {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 150px;
+  font-size: x-large;
+}
+.call {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  padding: 1em 6em;
+  margin: 2em 0;
+  border-radius: 5px;
+  background-color: #F08080;
+}
+
+.waiting-container {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+.waiting {
+  height: 400px;
+  width: 400px;
+}
+.tel {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+}
+.QR-container {
+  position: absolute;
+  top: 700px;
+  left: 700px;
+}
+.QR-text {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
