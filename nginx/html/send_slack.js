@@ -1,7 +1,8 @@
 window.onload = function(){
   
-  post_slack("generating zoom link...");
-  getJsonp_GAS();
+  post_slack("generating zoom link...", {
+    success: getJsonp_GAS()
+  });
 
   function post_slack(message) {
     const url = 'https://hooks.slack.com/services/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';
@@ -22,9 +23,9 @@ window.onload = function(){
       jsonpCallback: 'jsondata',
       success: function(json){
       var len = json.length;
-      var html = json[len-1].url;
-    document.getElementById('zoomlink').innerHTML = html;
-    }
+      var link = json[len-1].url;
+      document.getElementById('zoomlink').href = link;
+      }
     });
   }
 }
